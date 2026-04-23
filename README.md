@@ -84,7 +84,7 @@ The model was validated using a **Dash 8-300 reference aircraft**, achieving:
   * Hydrogen flow
   * Fuel consumption
     
-![Validation](images/GUI.png)
+![Validation](images/GUI1.png)
 ---
 
 ## 🧪 Tools & Technologies
