@@ -1,0 +1,40 @@
+# Methodology
+
+## Modeling Approach
+The simulator uses a backward-facing modeling approach.
+
+Instead of starting from subsystem power generation, the model starts from mission demand and calculates the required performance of upstream components.
+
+## Mission-Level Analysis
+The simulation represents the main flight phases:
+- takeoff
+- climb
+- cruise
+- descent
+- landing
+
+Each phase has distinct requirements in terms of altitude, speed, duration, and power demand.
+
+## Subsystem Models
+The framework includes mathematical models for:
+- aircraft dynamics
+- aerodynamic performance
+- propeller behavior
+- electric motor behavior
+- fuel cell system behavior
+- battery electrical behavior
+
+## Fuel Cell System
+The fuel cell system includes stack behavior and balance-of-plant losses.
+
+## Battery System
+The battery is represented using an equivalent-circuit approach to capture electrical response and state evolution.
+
+## Energy Management
+Power split logic is phase-based and allocates power between fuel cell and battery according to predefined strategies.
+
+## Environmental Effects
+The framework accounts for atmospheric effects such as:
+- pressure
+- temperature
+- air density

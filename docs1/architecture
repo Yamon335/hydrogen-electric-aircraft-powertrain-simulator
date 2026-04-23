@@ -1,0 +1,42 @@
+# System Architecture
+
+## Overview
+The simulator is a modular backward-facing simulation framework for hybrid hydrogen-electric aircraft propulsion systems.
+
+The framework starts from the mission profile and propagates power demand upstream through the propulsion chain to compute subsystem power flow and total energy consumption.
+
+## Main Subsystems
+- Aircraft performance model
+- Environmental model
+- Propeller model
+- Electric propulsion unit
+- Fuel cell system
+- Battery system
+- Energy management system
+
+## Architectural Principles
+- Modularity
+- Extensibility
+- Physics-based subsystem representation
+- Mission-level simulation capability
+- User-oriented configuration through GUI
+
+## Simulation Logic
+1. User defines aircraft and mission parameters
+2. Mission profile determines required thrust and power
+3. Power demand is propagated through the propulsion chain
+4. EMS allocates power between fuel cell and battery
+5. Key outputs are generated:
+   - thrust
+   - shaft power
+   - hydrogen flow rate
+   - cumulative hydrogen mass
+   - battery state of charge
+
+## User Interaction
+The simulator is controlled through a MATLAB App Designer GUI, which allows users to:
+- configure aircraft parameters
+- define mission profiles
+- choose hybridization strategies
+- run simulations
+- visualize outputs

@@ -1,0 +1,17 @@
+# Validation
+
+## Objective
+The simulator was validated against a trusted stakeholder reference toolbox using a Dash 8-300 reference aircraft.
+
+## Validation Metrics
+The comparison focused on:
+- propulsive thrust
+- shaft power demand
+- hydrogen flow rate
+- cumulative hydrogen mass consumption
+
+## Result Summary
+The developed simulator achieved strong agreement with the reference model, with normalized root mean square error values below the target acceptance threshold.
+
+## Importance
+This validation demonstrates that the simulation framework is suitable as a reliable foundation for future optimization and control studies.

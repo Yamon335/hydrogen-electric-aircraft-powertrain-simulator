@@ -1,0 +1,19 @@
+# Requirements
+
+## Functional Requirements
+- Enforce energy flow consistency
+- Model subsystem behavior with physics-informed equations
+- Simulate flight phases
+- Support configurable mission profiles
+- Support configurable aircraft parameters
+- Support subsystem scaling
+- Support multiple hybridization modes
+- Provide a graphical user interface
+- Provide output visualization
+
+## Non-Functional Requirements
+- Numerical stability under normal simulation step sizes
+- Runtime suitable for standard laptops
+- Compatibility with MATLAB/Simulink
+- No dependency on specialized external toolboxes
+- Validation against a trusted reference toolbox

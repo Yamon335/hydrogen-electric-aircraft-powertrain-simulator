@@ -1,0 +1,32 @@
+# User Guide
+
+## Launching the Simulator
+1. Open MATLAB
+2. Navigate to the project folder
+3. Open the main script or Simulink model
+4. Launch the GUI
+
+## Configuration Workflow
+Users can configure:
+- aircraft properties
+- mission profile
+- subsystem parameters
+- hybridization strategy
+
+## Running a Simulation
+After configuration:
+1. execute the simulation
+2. inspect output plots
+3. save results if needed
+
+## Main Outputs
+- thrust profile
+- power demand
+- fuel cell contribution
+- battery contribution
+- hydrogen flow
+- hydrogen mass consumption
+- battery SOC
+
+## Notes
+This repository may exclude some private stakeholder data, proprietary benchmarks, or restricted component files.
