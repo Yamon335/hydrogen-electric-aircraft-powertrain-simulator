@@ -51,6 +51,10 @@ The simulator follows a **modular architecture**, consisting of:
 The framework uses a **backward-facing approach**, where mission requirements determine subsystem power flows.
 ![System Architecture](images/SA1.png)
 
+![System Architecture](images/SA2.png) 
+
+![System Architecture](images/simulator.png) 
+
 ---
 
 ## ⚙️ Modeling Approach
@@ -86,6 +90,8 @@ The model was validated using a **Dash 8-300 reference aircraft**, achieving:
 ---
 ### 💻 GUI
 ![GUI](images/GUI1.png)    
+
+![GUI](images/GUI2.png)
 
 ---
 
