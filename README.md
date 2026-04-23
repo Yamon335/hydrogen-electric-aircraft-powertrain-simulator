@@ -49,7 +49,7 @@ The simulator follows a **modular architecture**, consisting of:
 * Energy Management System (EMS)
 
 The framework uses a **backward-facing approach**, where mission requirements determine subsystem power flows.
-
+![System Architecture](assets/images/SA1.png)
 
 ---
 
